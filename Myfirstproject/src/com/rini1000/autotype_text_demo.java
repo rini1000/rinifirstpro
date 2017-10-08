@@ -122,7 +122,8 @@ public class autotype_text_demo {
 			r.keyPress(KeyEvent.VK_SPACE);
 			Thread.sleep(500);
 			r.keyPress(KeyEvent.VK_C);
-			
+			Thread.sleep(500);
+			r.keyPress(KeyEvent.VK_SPACE);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
